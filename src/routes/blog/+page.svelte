@@ -12,22 +12,36 @@ export let data
   {#each data.posts as post}
     <li>
       <h2>
-        <a href='{post.path}'>
+        <span></span><a href='{post.path}'>
           {post.meta.title}
         </a>
       </h2>
-      Published {post.meta.date}
+      <p>Published {post.meta.date}</p>
     </li>
   {/each}
 </ul>
 
 <style>
   li {
-    margin-bottom: 3px;
-    border-bottom: 0.3px solid gray;
+    list-style-type: none;
+    margin-bottom: 20px;
+    border: 2px solid lightcyan;
+    border-radius: 14px;
   }
 
   a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-decoration: none;
+    color: #fd6b85;
+    font-family: monospace;
+  }
+
+  p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
   }
 </style>
