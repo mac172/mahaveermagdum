@@ -73,3 +73,4 @@ export const fetchPythonlang = async () => {
 
   return allPosts
 }
+
