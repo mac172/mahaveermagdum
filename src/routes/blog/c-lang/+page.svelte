@@ -1,10 +1,13 @@
 <script>
+  //import C from '$lib/assets/logos/c-logo.svg'
+
 export let data
 </script>
 
 <svelte:head>
   <title>Blogs</title>
 </svelte:head>
+
 
 <h1>Blogs on C Programming</h1>
 

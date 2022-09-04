@@ -1,7 +1,15 @@
-export const load = ({ url }) => {
-  const currentRoute = url.pathname
+import { error } from '@sveltejs/kit'
 
-  return {
-    currentRoute
+export const load = ({ url }) => {
+  try {
+    const currentRoute = url.pathname
+
+    return {
+      currentRoute
+    }
+
   }
+  catch(err) {
+    throw error(500,err)
+  } 
 }
