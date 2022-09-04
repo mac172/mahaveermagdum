@@ -1,4 +1,6 @@
 <script>
+  //import Welcome from '$lib/components/Welcome.svelte'
+
   const category = [
     {name: "C", path: "/blog/c-lang/",desc: "Blogs on C Programming..."},
     {name: "Python", path: "/blog/python-lang",desc: "Blogs on Python Programming..."}
@@ -90,6 +92,7 @@
     color: #44436A;
     top: 50%;
     left: -30%; 
+    z-index: -1;
     border-radius: 30% 70% 70% 30% / 31% 30% 70% 69%;
   }
 
