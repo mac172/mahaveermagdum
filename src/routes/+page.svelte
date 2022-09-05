@@ -1,5 +1,5 @@
 <script>
-  //import Welcome from '$lib/components/Welcome.svelte'
+  import Welcome from '$lib/components/Welcome.svelte'
 
   const category = [
     {name: "C", path: "/blog/c-lang/",desc: "Blogs on C Programming..."},
@@ -11,9 +11,11 @@
   <title>Home</title>
 </svelte:head>
 
+<Welcome />
 
 <div class="ball1"></div>
 <span class="ball2"></span>
+
 
 <div>
   <ul>
@@ -28,6 +30,7 @@
 
 
 <style>
+
   ul {
     display: block;
     margin-right: 20px;
@@ -91,7 +94,8 @@
     height: 300px;
     color: #44436A;
     top: 50%;
-    left: -30%; 
+    right: 10%; 
+    transform: rotateY(270deg);
     z-index: -1;
     border-radius: 30% 70% 70% 30% / 31% 30% 70% 69%;
   }
