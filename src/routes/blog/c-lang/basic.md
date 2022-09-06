@@ -1,6 +1,9 @@
 ---
 title: (C) Hello World
 date: Sept 2, 2022
+nextblog: [
+  {path: '/blog/c-lang/function',name: 'C function'}
+]
 ---
 
 <script>
