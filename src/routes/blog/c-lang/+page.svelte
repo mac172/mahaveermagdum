@@ -1,5 +1,5 @@
 <script>
-  //import C from '$lib/assets/logos/c-logo.svg'
+  import C from '$lib/components/C.svelte'
 
 export let data
 </script>
@@ -8,6 +8,7 @@ export let data
   <title>Blogs</title>
 </svelte:head>
 
+<C />
 
 <h1>Blogs on C Programming</h1>
 
