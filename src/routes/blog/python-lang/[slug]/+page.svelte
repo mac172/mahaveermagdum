@@ -2,6 +2,10 @@
   export let data;
 </script>
 
+<svelte:head>
+  <title>Blogs - { data.title }</title>
+</svelte:head>
+
 <article>
   <h1>{ data.title }</h1>
   <p>Published: {data.date}</p>
