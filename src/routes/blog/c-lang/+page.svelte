@@ -5,7 +5,7 @@ export let data
 </script>
 
 <svelte:head>
-  <title>Blogs</title>
+  <title>Blogs - C Programming Language</title>
 </svelte:head>
 
 <C />

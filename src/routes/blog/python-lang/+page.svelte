@@ -5,6 +5,9 @@
 export let data
 </script>
 
+<svelte:head>
+  <title>Blogs - Python Programming Language</title>
+</svelte:head>
 
 <Python />
 
