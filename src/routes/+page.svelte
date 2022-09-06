@@ -9,6 +9,8 @@
 
 <svelte:head>
   <title>Home</title>
+  <meta name="keywords" content="C, Python">
+  <meta name="description" content="Free tutorial on Programming languages">
 </svelte:head>
 
 <Welcome />
