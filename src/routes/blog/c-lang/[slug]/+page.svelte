@@ -5,6 +5,8 @@
 
 <svelte:head>
   <title>Blogs - { data.title }</title>
+  <meta name="keywords" content="C, Basic programming tutorial">
+  <meta name="description" content={data.metad}>
 </svelte:head>
 
 <article>
