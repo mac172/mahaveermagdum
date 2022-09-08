@@ -96,11 +96,7 @@ Open terminal/command prompt and type following sentences.
  python3
 ```
 
-After hitting enter button you will get something like this...
-
-<img src="/src/routes/blog/python-lang/assets/python-interpreter.jpg" alt="python interpreter" style="width: 100%"/>
-
-As you can see this contain Python version, C version and some other information. 
+You can see bunch of information  like python version, Clang version and other stuffs. Feel free to explore things on your own!.
 
 Now type,
 
