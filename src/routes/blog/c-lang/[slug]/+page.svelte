@@ -1,4 +1,5 @@
 <script>
+
   export let data
 
 </script>
@@ -14,7 +15,6 @@
   <p>Published: {data.date}</p>
   <svelte:component this={data.content} />
 </article>
-
 
 <style>
   p {

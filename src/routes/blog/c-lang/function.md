@@ -9,6 +9,7 @@ metad: C programming tutorial with example
   import CodeBox from '$lib/components/CodeBox.svelte'
   import Note from '$lib/components/Note.svelte'
   import Breaker from '$lib/components/Breaker.svelte'
+  import AlsoLike from '$lib/components/youMayAlsoLike.svelte'
 </script>
 
 <div style="box-shadow: 0 5px 12px 0 rgba(255,255,255,0.4); padding: 5px; border-radius: 13px; margin-bottom: 25px">
@@ -169,3 +170,9 @@ int sum(int a, int b) {
   return a + b;
 }
 ```
+
+<br>
+
+<Breaker />
+
+<AlsoLike name="C Hello World" path="/blog/c-lang/basic" date="Sep 2, 2022"/>
