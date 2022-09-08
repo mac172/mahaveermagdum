@@ -1,7 +1,15 @@
 
 <script>
+  import Python from '$lib/components/Python.svelte'
+
 export let data
 </script>
+
+<svelte:head>
+  <title>Blogs - Python Programming Language</title>
+</svelte:head>
+
+<Python />
 
 <h1>Blogs on Python Programming</h1>
   

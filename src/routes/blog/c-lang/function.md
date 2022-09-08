@@ -1,6 +1,7 @@
 ---
 title: C Functions
 date: "Sept 3, 2022"
+metad: C programming tutorial with example
 ---
 
 <script>
@@ -8,6 +9,7 @@ date: "Sept 3, 2022"
   import CodeBox from '$lib/components/CodeBox.svelte'
   import Note from '$lib/components/Note.svelte'
   import Breaker from '$lib/components/Breaker.svelte'
+  import AlsoLike from '$lib/components/youMayAlsoLike.svelte'
 </script>
 
 <div style="box-shadow: 0 5px 12px 0 rgba(255,255,255,0.4); padding: 5px; border-radius: 13px; margin-bottom: 25px">
@@ -49,7 +51,7 @@ void myFunction() {
 
 - ** *void* ** is C's data type. It define what/which type of value should function return. e.g. here **void** tell C that, this fuction will not return any thing.
 
-Missmatch in delare data type and return value will cause you some headache.
+Missmatch in declare data type and return value will cause you some headache.
 
 - ** *myFunction()* ** is name of your own fuction followed by '()' .
 
@@ -99,3 +101,78 @@ You can call fuction multiple time!
 // Outputs: Hello, Buddy!
 //          Hello, Buddy!
 ```
+
+<Breaker />
+
+
+# Arguments/Parameters
+
+The value you pass to your function (inside parentheses '()') are known as ** *Arguments/Parameters* ** . Some function need multiple **Arguments** and some doesn't need any, depending on work they have to done.
+
+<CodeBox />
+
+```c
+// this function doesn't need any parameters
+// also it not return any data
+void greeting() {
+  printf("Hello, Stranger!");
+}
+
+// this function takes two parameters 
+//    number1 : integer value
+//    number2 : integer value
+// also return an integer valur (sum of two number)
+int add(int number1, int number2) {
+  return number1 + number2
+}
+```
+
+<Breaker />
+
+
+# Function declaration
+
+**C** provide you two type of function declaration
+
+- Write function before 'main()' function.
+
+<CodeBox />
+
+```c
+// declare function before 'main()' function
+void foo() {
+  printf("Hello, World!");
+}
+
+int main() {
+  foo(); 
+  return 0;
+}
+
+```
+
+- Declare function name before 'main()' function, and write your function anywhere in program.
+
+<CodeBox />
+
+```c
+// declare function name before 'main()' function
+int sum(int a, int b)
+
+// main() function
+int main() {
+  sum(12,1); // call function
+  return 0;
+}
+
+// function defination
+int sum(int a, int b) {
+  return a + b;
+}
+```
+
+<br>
+
+<Breaker />
+
+<AlsoLike name="C Hello World" path="/blog/c-lang/basic" date="Sep 2, 2022"/>

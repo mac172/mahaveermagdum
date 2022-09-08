@@ -1,12 +1,17 @@
 ---
 title: (C) Hello World
 date: Sept 2, 2022
+nextblog: [
+  {path: '/blog/c-lang/function',name: 'C function'}
+]
 ---
 
 <script>
   import 'prism-themes/themes/prism-shades-of-purple.css'
   import CodeBox from '$lib/components/CodeBox.svelte'
   import Note from '$lib/components/Note.svelte'
+  import Breaker from '$lib/components/Breaker.svelte'
+  import AlsoLike from '$lib/components/youMayAlsoLike.svelte'
 </script>
 
 C programming is a general-purpose, procedural, imperative computer programming language developed in 1972 by Dennis M. Ritchie at the Bell Telephone Laboratories to develop the UNIX operating system. It is one of the most widely used programming language. If you know some basic of computer memory, then you will easily learn C.
@@ -94,3 +99,10 @@ This is similar to function's in **Maths** , given some input it calculate and g
 <div style="border: 2px dotted #fd6b85; border-radius: 12px">
 <p style="padding: 10px">Don't forget to add ';' at end of each line of code.</p>
 </div>
+
+<br>
+
+<Breaker />
+
+
+<AlsoLike name="C Functions" path="/blog/c-lang/function" date="Sep 3, 2022"/>

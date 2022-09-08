@@ -1,66 +1,50 @@
 
-<h1 class="welcome">Welcome to amazing world of <span>Coding!</span></h1>
+<h1 class="welcome">Welcome to amazing world of <span>Programming!</span></h1>
 
-<div class="container">
-  <p class="line1"><span class="def">def</span> <span class="main">main():</span>
-  <p class="line2"><span class="print">print(</span><span class="msg">"Hello, World!"</span>)</p>
-</div>
+<br>
 
+<p>Learn about Programming Languages and new Technology. Start with following Languages.</p>
+
+<br style="background-color: red">
+
+<h2 class="lang">Programming Languages</h2>
+
+<br>
 
 <style>
-  .container {
-    background: rgba(0, 0, 0, 0.02);
-    border-radius: 16px;
-    box-shadow: 0 16px 30px rgba(255, 255, 255, 0.6);
-    backdrop-filter: blur(15px);
-    -webkit-backdrop-filter: blur(15px);
-    border: 3px solid rgba(156, 128, 185, 0.89);
+  span {
+    font-style: italic;
+    font-weight: bold;
   }
 
-  .line1 {
-    overflow: hidden;
-    word-break: break-all;
-    white-space: nowrap;
-    width: 100%;
-    animation: typer 5s linear;
+  p {
+    text-align: center;
+    padding: 10px;
+    box-shadow: 2px 10px 12px 0 rgba(254,254,254,0.4);
+    border-radius: 13px;
+    border: 1.1px solid wheat;
+    outline: 3px white;
+    animation: type 4s ease-in-out;
   }
 
-  .line2 {
-    overflow: hidden;
-    word-break: break-all;
-    white-space: nowrap;
-    animation: typewriter 5s linear;
-    margin-top: -40px;
-    margin-left: 30px;
+  @keyframes type {
+    from {opacity:0}
+    to {opacity: 1}
   }
 
-  @keyframes typer {
+  .lang {
+    text-align: center;
+    animation: come 3s ease-in;
+  }
+
+  @keyframes come {
     from {
-      width: 0;
-      opacity: 0;
+      opacity: 0.3;
+      transform: translateX(-100%);
     }
     to {
-      width: 100%;
       opacity: 1;
+      transform: translateX(0%);
     }
-  }
-
-  @keyframes typewriter {
-    from{
-      width: 0;
-      opacity: 0;
-    }
-    to {
-      width: 100%;
-      opacity: 1;
-    }
-  }
-
-  .def {
-    color: #e06c75;
-  }
-
-  .msg {
-    color: yellow;
   }
 </style>
