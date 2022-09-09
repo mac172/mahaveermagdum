@@ -32,19 +32,4 @@
     to {opacity: 1}
   }
 
-  .lang {
-    text-align: center;
-    animation: come 3s ease-in;
-  }
-
-  @keyframes come {
-    from {
-      opacity: 0.3;
-      transform: translateX(-100%);
-    }
-    to {
-      opacity: 1;
-      transform: translateX(0%);
-    }
-  }
 </style>
