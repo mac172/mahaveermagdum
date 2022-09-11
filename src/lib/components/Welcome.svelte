@@ -24,12 +24,7 @@
     border-radius: 13px;
     border: 1.1px solid wheat;
     outline: 3px white;
-    animation: type 4s ease-in-out;
   }
 
-  @keyframes type {
-    from {opacity:0}
-    to {opacity: 1}
-  }
 
 </style>

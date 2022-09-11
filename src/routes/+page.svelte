@@ -41,14 +41,12 @@
   }
 
   li {
-    /*box-shadow: 0 -8px -16px 0 rgba(255,255,255,0.5);*/
+    list-style-type: none;
     width: 100%;
     height: 6rem;
     margin-top: 20px;
     margin-bottom: 30px;
     padding: 5px;
-   /* border-radius: 14px;
-    background: #0a143c;*/
     border-radius: 21px;
     background: rgba(156, 128, 185, 0.11);
     border-radius: 16px;
@@ -58,12 +56,8 @@
     border: 1px solid rgba(156, 128, 185, 0.89);
   }
 
-  li,a {
-    text-decoration: none;
-    list-style-type: none;
-  }
-
   a {
+    text-decoration: none;
     margin: 10px;
     display: flex;
     justify-content: center;
@@ -78,29 +72,10 @@
     text-align: center;
     font-family: monospace;
     overflow: hidden;
-    width: 0%;
+    width: 100%;
     color: #FFFCF9;
     margin-left: 20px;
     white-space: nowrap;
-    animation: typewriter 4s linear infinite alternate;
-  }
-
-  @keyframes typewriter {
-
-    90%,100%{width:100%;}
-  }
-
-  .ball1 {
-    position: absolute;
-    background: #FC6076;
-    width: 200px;
-    height: 300px;
-    color: #44436A;
-    top: 50%;
-    right: 10%; 
-    transform: rotateY(270deg);
-    z-index: -1;
-    border-radius: 30% 70% 70% 30% / 31% 30% 70% 69%;
   }
 
   .ball2 {
@@ -123,15 +98,6 @@
       left: 37%;
     }
 
-    .ball1 {
-      position: absolute;
-      width: 580px;
-      height: 570px;
-      left: -18%;
-      top: 30%;
-      animation: fader 4s linear infinite alternate;
-    }
-
     ul {
       margin-right: 15%;
     }
@@ -139,11 +105,6 @@
     p {
       margin-left: 33%;
       padding-right: -17%;
-    }
-
-    @keyframes fader {
-      0% {opacity: 10%;}
-      100% {opacity: 100%}
     }
   }
 </style>
