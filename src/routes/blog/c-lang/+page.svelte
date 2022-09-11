@@ -12,7 +12,7 @@ export let data
 
 <h1>Blogs on C Programming</h1>
 
-<ul>
+<div>
   {#each data.posts as post}
     <li>
       <h2>
@@ -23,16 +23,14 @@ export let data
       <p>Published {post.meta.date}</p>
     </li>
   {/each}
-</ul>
+</div>
 
 
 <style>
-
   li {
-    box-shadow: 0 4px 8px 0 rgba(255,255,255,0.3);
-    margin-bottom: 20px;
-    border-radius: 14px;
-    padding: 7px;
+    margin-top: 2rem;
+    list-style-type: none;
+    border-bottom: 1.2px solid lightcyan;
   }
 
   a {
@@ -41,7 +39,6 @@ export let data
     align-items: center;
     text-decoration: none;
     font-size: 20px;
-    padding: 10px;
     color: #fd6b85;
     font-family: monospace;
   }
@@ -50,7 +47,6 @@ export let data
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -5px;
     font-size: 10px;
     font-family: sans-serif;
   }
