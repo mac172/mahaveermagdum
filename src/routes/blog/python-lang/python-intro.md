@@ -2,6 +2,7 @@
 title: Python History and Syntax
 date: Sep 7, 2022
 metad: Python beginner course, Python basics
+time: "4min read"
 ---
 
 <script>
