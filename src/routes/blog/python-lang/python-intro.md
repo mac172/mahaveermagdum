@@ -2,6 +2,7 @@
 title: Python History and Syntax
 date: Sep 7, 2022
 metad: Python beginner course, Python basics
+time: "4min read"
 ---
 
 <script>
@@ -27,7 +28,7 @@ This is small introduction on most easy to learn programming language <strong>Py
 
 The creator of **Python** , Guido Van Rossum started to work on it in CWI at Netherland. As he already contrubute to **ABC** programming language which has *Exception Handling* (error tackling) feature and has good iterface with *Amoeba Operating System* .
 
-So he think why not we use **ABC**'s syntax and it's amazing feature to create a unique, easy to express programming language. At first there are too many promblems with this new programming language, but he solve them and give us most loved programming language.
+So he think why not we use **ABC**'s syntax and it's amazing feature to create a unique, easy to express programming language. At first there are too many problems with this new programming language, but he solve them and give us most loved programming language.
 
 <Note>
 Note that Python is influced by ABC and Modula-3.</Note>

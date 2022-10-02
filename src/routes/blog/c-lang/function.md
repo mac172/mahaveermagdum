@@ -2,6 +2,8 @@
 title: C Functions
 date: "Sept 3, 2022"
 metad: C programming tutorial with example
+recent: true
+time: "4min read"
 ---
 
 <script>

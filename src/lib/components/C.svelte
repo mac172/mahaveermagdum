@@ -26,20 +26,6 @@
   img {
     width: 90%;
     height: 90%;
-    transition: 0.3s ease-in-out;
-    animation: gradient 10s ease-in-out infinite;
-  }
-
-  @keyframes gradient {
-    0% {
-      filter: drop-shadow(20px 10px 3px rgba(152,0,255,0.43));
-    }
-    50% {
-      filter: drop-shadow(20px 10px 3px rgba(0,181,212,0.43));
-    }
-    100% {
-      filter: drop-shadow(20px 10pxpx 3px rgba(238,130,238,0.4));
-    }
   }
 
   .desc {
@@ -47,8 +33,6 @@
     box-shadow: 10px 12px 14px 0 rgba(0,0,0,1.2);
     border-radius: 14px;
     background: rgba(156, 128, 185, 0.46);
-    backdrop-filter: blur(1.2px);
-    -webkit-backdrop-filter: blur(1.2px);
     border: 1px solid rgba(156, 128, 185, 0.89);
   }
 </style>

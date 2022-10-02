@@ -1,50 +1,40 @@
+<script>
+  export let home;
+  const name = "Mac King";
 
-<h1 class="welcome">Welcome to amazing world of <span>Programming!</span></h1>
+  // img = class={utilStyles.borderCircle}
+  // h: = class={utilStyles.heading2Xl}
+</script> 
 
-<br>
 
-<p>Learn about Programming Languages and new Technology. Start with following Languages.</p>
 
-<br style="background-color: red">
+{#if home}
+  <div class="mt-12 mb-13 mx-auto py-4 px-0 max-w-3xl">
+    <header class="flex flex-col items-center">
+      <img
+        src= "/profile.jpg"
+        class="rounded-full m-4 hover:w-56"
+        height={192}
+        width={192}
+        alt="mac"
+        />
+        <h1 class="my-4 mx-0 text-4xl font-extrabold  md:text-5xl text-transparent bg-clip-text  bg-gradient-to-r from-purple-400 to-pink-600" >{name}</h1>
+        <section class="text-lg mt-8 p-4 md:text-4xl md:p-8">
+          <p>Hello, i'm <span class='text-rose-500'>mac</span>, a web developer, a programmer. i like to build website using modern frameworks like nextjs, svelte, nuxt, etc... and also have interest in quantum computer, space research. i write blogs on these and similar topics.</p>
+        </section>
+    </header>
+  </div>
+    {:else}
+    <header class="flex flex-col items-center">
+      <img
+        src= "/profile.jpg"
+        class="rounded-full m-4 hover:w-56"
+        height={110}
+        width={110}
+        alt="mac"
+        />
+        <h1 class="my-4 mx-0 text-4xl font-extrabold  md:text-5xl text-transparent bg-clip-text  bg-gradient-to-r from-purple-400 to-pink-600" >{name}</h1>
+    </header>
+{/if}
 
-<h2 class="lang">Programming Languages</h2>
 
-<br>
-
-<style>
-  span {
-    font-style: italic;
-    font-weight: bold;
-  }
-
-  p {
-    text-align: center;
-    padding: 10px;
-    box-shadow: 2px 10px 12px 0 rgba(254,254,254,0.4);
-    border-radius: 13px;
-    border: 1.1px solid wheat;
-    outline: 3px white;
-    animation: type 4s ease-in-out;
-  }
-
-  @keyframes type {
-    from {opacity:0}
-    to {opacity: 1}
-  }
-
-  .lang {
-    text-align: center;
-    animation: come 3s ease-in;
-  }
-
-  @keyframes come {
-    from {
-      opacity: 0.3;
-      transform: translateX(-100%);
-    }
-    to {
-      opacity: 1;
-      transform: translateX(0%);
-    }
-  }
-</style>
