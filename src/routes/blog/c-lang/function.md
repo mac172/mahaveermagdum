@@ -33,7 +33,11 @@ int square(int b) {
 }
 ```
 
+<br />
+
 As you see above code block has a function which work is to square the given number (** b **). Some functions return value and some not, which we will be see in a moment.
+
+<br />
 
 <Breaker />
 
@@ -41,6 +45,8 @@ As you see above code block has a function which work is to square the given num
 ## Creating Functions: 
 
 To create (also called by 'declare') your own functions, first choose one of the data type (e.g. int,float,bool,etc...) then specify your function name, followed by parentheses '()' and curly bracket and done! . 
+
+<br />
 
 <CodeBox />
 
@@ -51,6 +57,8 @@ void myFunction() {
 
 ```
 
+<br />
+
 - ** *void* ** is C's data type. It define what/which type of value should function return. e.g. here **void** tell C that, this fuction will not return any thing.
 
 Missmatch in declare data type and return value will cause you some headache.
@@ -59,6 +67,7 @@ Missmatch in declare data type and return value will cause you some headache.
 
 - Inside (or between curly brackets) write your code that, this fuction will execute.
 
+<br /> 
 
 <Breaker />
 
@@ -66,6 +75,7 @@ Missmatch in declare data type and return value will cause you some headache.
 
 To call function you only need to write name of function (if that fuction required value then pass them to it in '()'  ).
 
+<br />
 
 <CodeBox />
 
@@ -106,10 +116,13 @@ You can call fuction multiple time!
 
 <Breaker />
 
+<br />
 
 # Arguments/Parameters
 
 The value you pass to your function (inside parentheses '()') are known as ** *Arguments/Parameters* ** . Some function need multiple **Arguments** and some doesn't need any, depending on work they have to done.
+
+<br />
 
 <CodeBox />
 
@@ -131,6 +144,7 @@ int add(int number1, int number2) {
 
 <Breaker />
 
+<br />
 
 # Function declaration
 
@@ -152,6 +166,8 @@ int main() {
 }
 
 ```
+
+<br />
 
 - Declare function name before 'main()' function, and write your function anywhere in program.
 
@@ -178,3 +194,4 @@ int sum(int a, int b) {
 <Breaker />
 
 <AlsoLike name="C Hello World" path="/blog/c-lang/basic" date="Sep 2, 2022"/>
+

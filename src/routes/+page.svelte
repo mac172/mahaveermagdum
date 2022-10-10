@@ -17,9 +17,9 @@
 <br />
 
 <ul>
+  <h1>Recent Uploads</h1>
   {#each data.posts as post}
-    {#if post.meta.recent}
-      <h1>Recent Uploads</h1>
+    {#if post.meta.recent && !post.meta.draft}
       <li class="p-5 m-4">
         <h2 class="text-rose-500 text-center md:text-3xl">
           <a href={post.path}>{post.meta.title}</a>

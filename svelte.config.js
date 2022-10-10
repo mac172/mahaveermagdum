@@ -8,14 +8,14 @@ const config = {
 		adapter: adapter()
 	},
 
-  extensions: ['.svelte','.md'],
+  extensions: ['.svelte','.md','.mdx'],
 
   preprocess: [
     sveltePreprocess({
       postcss: true,
     }),
     mdsvex({
-      extensions: ['.md']
+      extensions: ['.md','.mdx']
     })
   ]
 };

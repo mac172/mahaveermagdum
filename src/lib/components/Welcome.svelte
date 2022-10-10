@@ -9,7 +9,7 @@
 
 
 {#if home}
-  <div class="mt-12 mb-13 mx-auto py-4 px-0 max-w-3xl">
+  <div class="mt-12 mb-13 mx-auto py-12 px-0 max-w-3xl">
     <header class="flex flex-col items-center">
       <img
         src= "/profile.jpg"
@@ -25,7 +25,7 @@
     </header>
   </div>
     {:else}
-    <header class="flex flex-col items-center">
+    <header class="mt-20 flex flex-col items-center">
       <img
         src= "/profile.jpg"
         class="rounded-full m-4 hover:w-56"

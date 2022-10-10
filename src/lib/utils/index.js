@@ -1,5 +1,5 @@
 export const fetchMarkdownPosts = async () => {
-  const allPostFiles = import.meta.glob('/src/routes/blog/**/*.md')
+  const allPostFiles = import.meta.glob(`/src/routes/blog/**/*.{md,mdx}`)
   const iterablePostFiles = Object.entries(allPostFiles)
   
   const allPosts = await Promise.all(
@@ -56,7 +56,7 @@ export const fetchClang = async () => {
 }
 
 export const fetchPythonlang = async () => {
-  const allPostFiles = import.meta.glob(`/src/routes/blog/python-lang/*.md`)
+  const allPostFiles = import.meta.glob(`/src/routes/blog/python-lang/*.{md,mdx}`)
   const iterablePostFiles = Object.entries(allPostFiles)
   
   const allPosts = await Promise.all(
