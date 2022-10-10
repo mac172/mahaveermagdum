@@ -10,7 +10,9 @@
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/kit": "next",
+		"@tailwindcss/typography": "^0.5.7",
 		"autoprefixer": "^10.4.12",
+		"daisyui": "^2.31.0",
 		"mdsvex": "^0.10.6",
 		"postcss": "^8.4.16",
 		"prism-themes": "^1.9.0",

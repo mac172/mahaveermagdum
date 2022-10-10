@@ -16,12 +16,6 @@
 
 
 <style>
-  ul {
-    display: block;
-    margin-right: 20px;
-
-  }
-
   li {
     list-style-type: none;
     border: 1px solid #fd6b85;

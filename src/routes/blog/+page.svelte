@@ -20,16 +20,18 @@ export let data
   
 <ul>
   {#each data.posts as post}
-    <li class="p-1 bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500 rounded-2xl">
-      <div class="p-2 bg-gray-900 rounded-2xl">
-        <h2 class="text-purple-400 text-center md:text-3xl">
-          <span></span><a href='{post.path}'>
-            {post.meta.title}
-          </a>
-        </h2>
-        <p class="text-gray-500 text-center">Published {post.meta.date}</p>
-      </div>
-    </li>
+    {#if !post.meta.draft}
+      <li class="p-1 bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500 rounded-2xl">
+        <div class="p-2 bg-gray-900 rounded-2xl">
+          <h2 class="text-purple-400 text-center md:text-3xl">
+            <span></span><a href='{post.path}'>
+              {post.meta.title}
+            </a>
+          </h2>
+          <p class="text-gray-500 text-center">Published {post.meta.date}</p>
+        </div>
+      </li>
+    {/if}
   {/each}
 </ul>
 

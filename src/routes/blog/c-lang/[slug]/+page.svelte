@@ -25,7 +25,7 @@
   <br/>
   <hr/>
   <br/>
-  <div class="text-2xl">
-    <svelte:component this={data.content} />
+  <div class="prose">
+    <svelte:component this={ data.content} />
   </div>
 </article>
