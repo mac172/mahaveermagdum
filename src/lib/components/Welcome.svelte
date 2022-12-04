@@ -1,6 +1,6 @@
 <script>
   export let home;
-  const name = "Mac King";
+  const name = "Mahaveer Magdum";
 
   // img = class={utilStyles.borderCircle}
   // h: = class={utilStyles.heading2Xl}
@@ -20,7 +20,7 @@
         />
         <h1 class="my-4 mx-0 text-4xl font-extrabold  md:text-5xl text-transparent bg-clip-text  bg-gradient-to-r from-purple-400 to-pink-600" >{name}</h1>
         <section class="text-lg mt-8 p-4 md:text-4xl md:p-8">
-          <p>Hello, i'm <span class='text-rose-500'>mac</span>, a web developer, a programmer. i like to build website using modern frameworks like nextjs, svelte, nuxt, etc... and also have interest in quantum computer, space research. i write blogs on these and similar topics.</p>
+          <p>Hello, i'm <span class='text-rose-500'>Mahaveer</span>, a web developer, a programmer. I like to build website using modern frameworks like Nextjs, Svelte, Nuxtjs, etc... and also have interest in Quantum computer research, space research. I write blogs on these and similar topics.</p>
         </section>
     </header>
   </div>
