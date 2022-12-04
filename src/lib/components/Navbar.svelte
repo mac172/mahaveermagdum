@@ -32,7 +32,6 @@
             <li><a href="/blog/python-lang">Python</a></li>
           </ul>
         </li>
-        <li><a href="/about">About</a></li>
       </ul>
     </div>
     <a class="btn btn-ghost normal-case text-xl items-center ml-4" href="/">Mac King</a>
