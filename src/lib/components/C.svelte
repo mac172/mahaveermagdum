@@ -5,12 +5,9 @@
 <div><img src={logo} alt="C logo"></div>
 
 <p class="desc">C is a general-purpose computer programming language. It was created in the 1970s by Dennis Ritchie. It is widely used all over the world, and thats why it is still dominating programming world.</p>
-
-<p>Main feature <strong>'C'</strong> offer is it's speed. It is one of the fastest programming language. There is also more feature 'C' offer.</p>
-
 <br>
 
-<p>So let's start with following below blogs!</p>
+<p class="leading-10 tracking-wide">Main feature <strong>'C'</strong> offer is it's speed. It is one of the fastest programming language. There is also more feature 'C' offer.So let's start with following below blogs!</p>
 
 <br>
 
@@ -24,8 +21,8 @@
   }
 
   img {
-    width: 90%;
-    height: 90%;
+    width: 40%;
+    height: 40%;
   }
 
   .desc {
