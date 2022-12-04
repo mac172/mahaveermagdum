@@ -10,44 +10,27 @@ export let data
 
 <C />
 
-<h1>Blogs on C Programming</h1>
+<hr class="w-full m-2 p-b-2 ">
 
-<div>
-  {#each data.posts as post}
-    <li>
-      <h2>
-        <a href='{post.path}'>
-          {post.meta.title}
-        </a>
+<h1 class="flex justify-center text-2xl">Blogs on C Programming</h1>
+
+
+{#each data.posts as post}
+  {#if post.meta.recent && !post.meta.draft}
+    <li class="p-5 m-4 rounded-2xl">
+      <h2 class="text-rose-500 text-center md:text-3xl">
+        <a href={post.path}>{post.meta.title}</a>
       </h2>
-      <p>Published {post.meta.date}</p>
+      <br />
+      <p class="text-gray-500 text-center">{post.meta.date}</p>
     </li>
-  {/each}
-</div>
-
+  {/if}
+{/each}
 
 <style>
+
   li {
-    margin-top: 2rem;
-    list-style-type: none;
-    border-bottom: 1.2px solid lightcyan;
+    border: 1px solid #fd6b85;
   }
 
-  a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    font-size: 20px;
-    color: #fd6b85;
-    font-family: monospace;
-  }
-
-  p {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 10px;
-    font-family: sans-serif;
-  }
 </style>
