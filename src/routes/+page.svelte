@@ -1,6 +1,6 @@
 <script>
   import Welcome from '$lib/components/Welcome.svelte'
-
+  let a = 56;
   export let data;
 </script>
 
@@ -15,6 +15,8 @@
 
 <hr />
 <br />
+
+<h1>{a}</h1>
 
 <ul>
   <h1>Recent Uploads</h1>
